@@ -4,14 +4,14 @@
 
 また、ここにアップロードされているサンプルを解説している記事を以下に投稿しました。
 
-***パスワード強度推定メーター（zxcvbn.js）を実装してみる***
+***パスワード強度推定メーター（zxcvbn.js）を実装してみる***  
 <https://qiita.com/hibara/items/fbd26704b8ab7fd74fb1>
 
 こちらの解説を読み進めながら、サンプルコードを見ると、より理解が深まるかと思います。
 
 ## 動作確認ページ
 
-実際に動作確認できるページを用意しました。こちらからどうぞ。
+実際に動作確認できるページを用意しました。こちらからどうぞ。  
 <https://hibara.github.io/zxcvbn-js-test/>
 
 ## zxcvbn.js の入手場所
@@ -20,10 +20,10 @@
 
 以下はそのレポジトリです。
 
-dropbox/zxcvbn - GitHub
+dropbox/zxcvbn - GitHub  
 <https://github.com/dropbox/zxcvbn>
 
-JSファイルだけであるのなら、こちらからmapファイルも含めてダウンロードできます。
+JSファイルだけであるのなら、こちらからmapファイルも含めてダウンロードできます。  
 <https://github.com/dropbox/zxcvbn/tree/master/dist>
 
 ## zxcvbn のコンセプト、設計思想
@@ -34,7 +34,7 @@ JSファイルだけであるのなら、こちらからmapファイルも含め
 
 英語を読むのがシンドイという方は、一応拙訳ですが、Qiitaに日本語訳の記事を投稿しています。
 
-***Dropbox開発のzxcvbn（パスワード強度メーター）のブログ記事を全訳してみた***
+***Dropbox開発のzxcvbn（パスワード強度メーター）のブログ記事を全訳してみた***  
 <https://qiita.com/hibara/items/37ba7a1f8ba2d54ae600>
 
 ## ライセンス
@@ -45,5 +45,5 @@ MITライセンス
 
 基本的には無保証・サポートはありませんが、もし万が一、提案・要望・ご意見などありましたら、Issues に追加いただくか、以下までご連絡ください。できる範囲で対応いたします。
 
-Mituhiro Hibara
+Mituhiro Hibara  
 <mailto:m@hibara.org>
