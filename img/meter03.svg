@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" style="fill:black">
+  <!-- cxはx軸の中心 cyはy軸の中心 rは半径 -->
+  <!-- 長さ = r(32)*2=64, 64*3.14=200.96 -->
+  <circle cx="50" cy="50" r="32" class="outline"/>
+  <circle cx="50" cy="50" r="32" class="meter"/>
+  <style>
+    svg {
+      transform: rotate(-90deg);
+    }
+
+    .outline {
+      fill: transparent;
+      stroke: #cd3e3e;
+      stroke-opacity: 0.2;
+      stroke-width: 8;
+    }
+
+    .meter {
+      fill: transparent;
+      stroke: #00e600;
+      stroke-width: 20;
+      stroke-dasharray: 160.8 201;
+      animation: circle 0.7s; /* keyframes名 速さ */
+    }
+
+    @keyframes circle {
+      0% { stroke-dasharray: 0 201; }
+      /* stroke-dasharray: 破線の長さ 破線の間隔; */
+      99.9%,to { stroke-dasharray: 160.8 201; }
+    }
+
+  </style>
+</svg>

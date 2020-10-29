@@ -1,0 +1,82 @@
+html, body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label, input {
+  display: block;
+}
+.container {
+  margin-top: 32px;
+  box-sizing: border-box;
+  border: 1px #dddddd solid;
+  background-color: #eeeeee;
+  box-shadow: 4px 4px 20px rgba(0,0,0,0.2);
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#user-id-wrapper {
+  margin-left: 32px;
+  width: 100%;
+}
+#password-wrapper {
+  display: flex;
+  width: 100%;
+
+}
+#input-password-wrapper {
+  width: 100%;
+}
+#user-id {
+  width: calc(80% - 32px);
+}
+#input-password {
+  margin: 0;
+  width: 80%;
+}
+#password-meter {
+  margin: 19px 6px 0 -6px;
+  width: 32px;
+  height: 32px;
+}
+.input-password {
+  vertical-align: top;
+}
+table {
+  padding: 16px;
+  width: 100%;
+}
+table td {
+  background-color: #dedede;
+  white-space: pre;
+}
+table .n {
+  background-color: #cccccc;
+  padding: 0 32px;
+}
+table .n.score {
+  background-color: #b3b3b3;
+}
+#score {
+  background-color: #cacaca;
+}
+
+#user-id-wrapper {
+  /*border: 1px green dotted;  !* デバッグ *!*/
+  padding: 0 16px;
+}
+#password-wrapper {
+  /*border: 1px green dotted;  !* デバッグ *!*/
+  padding: 0 16px;
+}
+#user_id {
+  box-sizing: border-box;
+  width: 100%;
+}
+#password {
+  box-sizing: border-box;
+  width: 100%;
+}
