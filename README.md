@@ -12,7 +12,7 @@
 ## 動作確認ページ
 
 実際に動作確認できるページを用意しました。こちらからどうぞ。
-<https://pages.github.com/>
+<https://hibara.github.io/zxcvbn-js-test/>
 
 ## zxcvbn.js の入手場所
 
